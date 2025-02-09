@@ -1,4 +1,4 @@
-# [Power BI] AdventureWorks
+# [Power BI] AdventureWorks Manufacturing Performance Analysis
 
 ## 1. Context
 - AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer - Adventure Works Cycles. 
