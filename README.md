@@ -1,4 +1,4 @@
-# [PowerBI] AdventureWorks
+# [Power BI] AdventureWorks
 
 ## 1. Context
 - AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer - Adventure Works Cycles. 
