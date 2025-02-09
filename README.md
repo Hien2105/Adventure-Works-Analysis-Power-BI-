@@ -44,7 +44,7 @@
 
 </details> 
 
-## 4. Visualize Dashboard
+## 4. Result
 After completing the Design Thinking process, I will proceed with visualization. I will create 2 dashboards and 1 recommendations page, which will include: 
 
 - Overview (General Performance overview)
