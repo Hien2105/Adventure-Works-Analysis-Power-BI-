@@ -1,17 +1,15 @@
 # Manufacturing Performance Analysis (Power BI)
 
 ## 1. Situation
-- AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer - Adventure Works Cycles. 
-- Scenarios include Manufacturing, Sales, Purchasing, Product Management, Contact Management, and Human Resources.
-
-## 2. Task
 - The Production Department is responsible for receiving production requests from the company's Planning Department. After the Purchasing Department places orders and imports raw materials into the warehouse, the production process begins.
 - According to the plan, once production is completed, products will be stored in various locations to facilitate storage and distribution to customers. The production completion time may not fully align with the plan. During the process of inspecting warehouse entries, there is a possibility that goods may be damaged, and they will be rejected to ensure that only quality-assured products are stored for sale.
-### Requirement
-- As a data analyst, create an Operation Dashboard for the Production Director to provide a clear and intuitive visual overview that helps them make better decisions and operate more efficiently.  
-- Additionally, you can provide your own recommendations, insights, and suggestions.
+- Given the complexities of the manufacturing process, leaders require a dashboard to track key manufacturing metrics, enabling them to swiftly formulate strategies and make timely adjustments.
 
-## 3. Approach
+## 2. Task
+-  Based on the situation and the needs given, I create an Operation Dashboard for the Production Director to provide a clear and intuitive visual overview that helps them make better decisions and operate more efficiently.  
+-  Additionally, I also provide additional insights and recommendations to help optimize the production process.
+
+## 3. Action
 - I used the Design Thinking template for empathy and analysis, then selected the key metrics and dimensions for visualization. 
 - I selected the tables related to Manufacturing department (connect PBI and AdventureWorks database on BigQuery)
 
