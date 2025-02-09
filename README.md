@@ -45,57 +45,47 @@
 </details> 
 
 ## 4. Result (Key insights and Recommendations)
-After completing the Design Thinking process, I will proceed with visualization. I will create 2 dashboards and 1 recommendations page, which will include: 
 
-- Overview (General Performance overview)
-- Production Overview
+### Key Insights
 
- Overview (General Performance overview)
+#### Overview (General Performance overview)
 
  ![image](https://github.com/user-attachments/assets/b64a0ff3-6778-4459-a9de-a70b96f153d7)
 
- Production Overview
-
- ![image](https://github.com/user-attachments/assets/7ec218e0-70e6-45fa-940a-f06d66a2ac95)
-
-
-
-
-
-## Overview Page Insights  
-
-### Production Cost Distribution  
+**Production Cost Distribution**
 - Highest costs: **Subassembly** and **Frame Forming**.  
 → Resources and expenses were primarily focused on these areas.  
 
-### Monthly Production Cost Trends  
+**Monthly Production Cost Trends**  
 - Costs were lower at the beginning of the year but increased from mid-year, peaking in **November**.  
 - **Yield Rate** remained above **90%**, except for slight drops in **January, July, and December**.  
 → Investigate **machinery performance** and **production capacity** during these months.  
 
-### Production Cost Allocation  
+**Production Cost Allocation**  
 - **80%** of costs were for **components and parts manufacturing**, **20%** for **final assembly**.  
 - High costs for **handlebars** and **bike frames**.  
 → Optimize production processes for these components to improve efficiency.  
 
-## Production View Page Insights  
+ #### Production Overview
 
-### Production Hours Allocation  
+ ![image](https://github.com/user-attachments/assets/7ec218e0-70e6-45fa-940a-f06d66a2ac95)
+
+**Production Hours Allocation**  
 - **Stages 6 and 7** had the highest **production hours**.  
 → Resources were mostly concentrated on these two stages.  
 
-### Cost vs. Output Efficiency  
+**Cost vs. Output Efficiency**  
 - **Stages 1 and 7** had **disproportionately high production costs** compared to their output.  
 - **Stage 1**: Excessive time spent on **parts and accessories**, but low production output.  
-- → Review **process efficiency** and **machinery usage**.  
+→ Review **process efficiency** and **machinery usage**.  
 - **Stage 7**: Cost variations up to **50%** for **Road Bikes-750**, depending on size.  
 → Optimize **cost allocation** for different product sizes.  
 
-### Delayed Orders Issue  
+**Delayed Orders Issue**  
 - **56% of orders** were delayed in **stages 1 and 7** in **July 2013**.  
 → Review and adjust **manufacturing workflow** to reduce delays.  
 
-## Conclusion  
+### Recommendations
 - The **manufacturing process** lacks optimization, leading to **inefficiencies and high costs**.  
 - A **comprehensive review** and **process adjustments** are recommended.  
 
