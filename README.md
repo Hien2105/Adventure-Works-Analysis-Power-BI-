@@ -53,7 +53,7 @@
  ![image](https://github.com/user-attachments/assets/b64a0ff3-6778-4459-a9de-a70b96f153d7)
 
 **Production Cost Distribution**
-- Highest costs: **Subassembly** and **Frame Forming**.  
+- Highest costs: **Subassembly** and **Frame Forming**.
 → Resources and expenses were primarily focused on these areas.  
 
 **Monthly Production Cost Trends**  
