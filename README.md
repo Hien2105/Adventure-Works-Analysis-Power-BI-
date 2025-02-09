@@ -1,10 +1,10 @@
 # Manufacturing Performance Analysis (Power BI)
 
-## 1. Context
+## 1. Situation
 - AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer - Adventure Works Cycles. 
 - Scenarios include Manufacturing, Sales, Purchasing, Product Management, Contact Management, and Human Resources.
 
-## 2. Topic: Manufacturing
+## 2. Task
 - The Production Department is responsible for receiving production requests from the company's Planning Department. After the Purchasing Department places orders and imports raw materials into the warehouse, the production process begins.
 - According to the plan, once production is completed, products will be stored in various locations to facilitate storage and distribution to customers. The production completion time may not fully align with the plan. During the process of inspecting warehouse entries, there is a possibility that goods may be damaged, and they will be rejected to ensure that only quality-assured products are stored for sale.
 ### Requirement
