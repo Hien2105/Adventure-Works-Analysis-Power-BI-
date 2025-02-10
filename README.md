@@ -10,39 +10,48 @@
 -  Additionally, I also provide additional insights and recommendations to help optimize the production process.
 
 ## 3. Action
-- I used the Design Thinking template for empathy and analysis, then selected the key metrics and dimensions for visualization. 
-- I selected the tables related to Manufacturing department (connect PBI and AdventureWorks database on BigQuery)
+### 3.1 Action Breakdown
+#### Design Thinking
 
-<details><summary><strong>Design Thinking</strong></summary>
-<br>
-  
+**Stage 1: Empathize**
+
+The Empathize stage in Design Thinking focuses on understanding users' needs, challenges, and emotions through research, observation, and interviews. This helps create user-centered solutions by gaining deep insights into their experiences and pain points.
+
+![](https://github.com/Hien2105/photo/blob/main/PBI%201.png)
+
+**Stage 2: Define POV**
+
+The Define (Point of View - POV) stage in Design Thinking focuses on clearly articulating the problem based on user insights from the Empathize stage. It helps frame the challenge in a user-centered way, ensuring the solution directly addresses their needs and pain points.
+
+![](https://github.com/Hien2105/Project-s-photo/blob/main/PBI%202.png)
+
+**Stage 3: Ideate**
+
+The Ideate stage in Design Thinking focuses on generating a wide range of creative solutions based on the defined problem. It encourages brainstorming, exploring different perspectives, and challenging assumptions to find the most innovative and effective ideas for solving user needs.
+
+![](https://github.com/Hien2105/Project-s-photo/blob/main/PBI%203.png)
+
+After 3 stages of design thinking, I have selected the northstar metric and important dimensions to build the dashboard.
 - Northstart metric: Total Production Cost	
 - Dimension 1 - Time: StarDate, EndDate, DueDate
 - Dimension 2 - Location: Name
 - Dimension 3 - Product: Product Category, Sub Category, Name
 
-![image](https://github.com/user-attachments/assets/3f09c7e8-80c1-419e-b4d9-50fd6e4f94d6)
 
-![image](https://github.com/user-attachments/assets/3255531c-6116-41eb-9227-c16a0d6a2809)
 
-![image](https://github.com/user-attachments/assets/bae932b4-cec8-432c-87ee-7446cd73daa5)
-
-</details> 
-<details><summary><strong>Data Processing</strong></summary>
-<br>
+#### Data processing
+The database I used is AdventureWorks 2019. I only selected tables that contained manufacturing related information. And here are my data preprocessing steps:
+1. Connect to database: I directly connect AdventureWorks 2019 database from google big query to Power BI
+   
+  ![](https://github.com/Hien2105/Project-s-photo/blob/main/PBI%204.png)
   
-1. Connect to database
-2. choose table and cleaning data
-3. Build schema(snowflex)
+2. Select table and cleaning data: Select tables related to manufacturing and process raw data such as removing duplicates, outliers, missing values.
+   
+  ![](https://github.com/Hien2105/Project-s-photo/blob/main/PBI%205.png)
+  
+3. Build schema: Join tables together to create a snowflake model ensuring the data is connected together correctly
 
-![image](https://github.com/user-attachments/assets/2a594bae-dc11-4459-8f57-41bfbb74da4e)
-
-![image](https://github.com/user-attachments/assets/8d30cd7d-d534-48ed-8966-ad1232d18251)
-
-![image](https://github.com/user-attachments/assets/a589a0cf-3968-4ee3-9029-28c2f76674aa)
-
-
-</details> 
+  ![](https://github.com/Hien2105/Project-s-photo/blob/main/PBI%206.png)
 
 ## 4. Result (Key insights and Recommendations)
 
@@ -50,7 +59,7 @@
 
 #### Overview (General Performance overview)
 
- ![image](https://github.com/user-attachments/assets/b64a0ff3-6778-4459-a9de-a70b96f153d7)
+ ![](https://github.com/Hien2105/Project-s-photo/blob/main/PBI%207.png)
 
 **Production Cost Distribution**
 - Highest costs: Subassembly and Frame Forming.
@@ -68,7 +77,7 @@
 
  #### Production Overview
 
- ![image](https://github.com/user-attachments/assets/7ec218e0-70e6-45fa-940a-f06d66a2ac95)
+ ![](https://github.com/Hien2105/Project-s-photo/blob/main/PBI%208.png)
 
 **Production Hours Allocation**  
 - Stages 6 and 7 had the highest production hours.  
